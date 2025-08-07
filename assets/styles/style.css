@@ -1,0 +1,86 @@
+h1 {
+  color: beige;
+  background-color: pink;
+}
+
+body {
+  background-color: rgb(255, 247, 235);
+}
+
+p {
+  color: rgb(255, 200, 200);
+}
+
+.hoho {
+  color: rgb(169, 28, 15);
+}
+
+.hoho:hover {
+  border: 2px solid rgb(250, 158, 202);
+  transition: 1s;
+  background-color: black;
+}
+
+#info {
+  color: rgb(251, 85, 143);
+}
+
+#table_style {
+  color: rgb(255, 205, 210);
+  border: 1px solid blanchedalmond;
+  border-collapse: collapse;
+  text-align: center;
+  width: 50%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#table_style th {
+  border: 1px solid blanchedalmond;
+  padding: 8px;
+}
+
+#table_style tr {
+  border: 1px solid blanchedalmond;
+  padding: 8px;
+}
+
+#table_style td {
+  border: 1px solid blanchedalmond;
+  padding: 8px;
+}
+
+.tftable {
+  font-size: 12px;
+  color: #0061df;
+  width: 100%;
+  border: 2px solid #636262;
+  border-collapse: collapse;
+  text-align: center;
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.tftable th {
+  font-size: 20px;
+  background-color: #f3ff89;
+  border-width: 1px;
+  padding: 8px;
+  border: 2px solid #636262;
+}
+
+.tftable tr {
+  background-color: #fdffda;
+}
+
+.tftable td {
+  font-size: 12px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #636262;
+  text-align: left;
+}
+
+.tftable tr:hover {
+  background-color: #cbe5ff;
+}
